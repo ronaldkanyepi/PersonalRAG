@@ -16,7 +16,7 @@ The core of Ronald AI is its ability to understand and respond to queries strict
 ## Features
 
 -  **RAG pipeline**: Retrieves and grounds answers on local documents.
--  **LLM Integration**: Uses OpenRouter's DeepSeek Chat model for generation.
+-  **LLM Integration**: Uses OpenRouter's OpenGVLab: InternVL3 14B Chat model for generation.
 -  **Document Indexing**: Auto-loads or rebuilds index from `data/`.
 -  **Real-time Chat UI**: Powered by Chainlit with streaming responses.
 -  **HuggingFace Embeddings**: Uses `BAAI/bge-small-en-v1.5` for vector search.
