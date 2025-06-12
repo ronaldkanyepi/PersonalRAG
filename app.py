@@ -118,12 +118,15 @@ async def main(message: cl.Message):
 
         res = await cl.make_async(query_engine.query)(message.content)
         logger.info("LLM response received.")
+        full_response = ""
 
         for token in res.response_gen:
             await msg.stream_token(token)
+            full_response += token
 
         await msg.send()
         logger.info("Message sent back to client.")
+        logger.info(f"Full response: {full_response}")
 
     except Exception as e:
         error_msg = f"An error occurred: {str(e)}"

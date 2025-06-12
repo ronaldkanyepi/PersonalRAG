@@ -11,3 +11,39 @@
 2025-06-12 12:31:36.349 | INFO     | app.py:main:117 - Received message: provide more
 2025-06-12 12:31:36.424 | INFO     | app.py:main:120 - LLM response received.
 2025-06-12 12:31:40.804 | INFO     | app.py:main:126 - Message sent back to client.
+2025-06-12 13:08:02.263 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 13:08:03.753 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:08:06.922 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:08:06.969 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:08:07.962 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:08:07.991 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:08:08.712 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:08:08.766 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:08:09.409 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:08:53.759 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:08:55.293 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:08:56.617 | INFO     | app.py:main:117 - Received message: Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.
+2025-06-12 13:08:57.416 | INFO     | app.py:main:120 - LLM response received.
+2025-06-12 13:08:59.603 | INFO     | app.py:main:128 - Message sent back to client.
+2025-06-12 13:08:59.604 | INFO     | app.py:main:129 - Full response: ```markdown
+## Technical Skills Summary
+
+### Programming & Machine Learning
+- **Languages**: Python, R
+- **Frameworks & Libraries**: TensorFlow, PyTorch, scikit-learn, Darts, ARIMA, LLMs, RAG, LlamaIndex
+
+### Data Engineering
+- **Tools**: Apache Spark, Kafka, Apache Airflow, Docker, Kubernetes, dbt
+- **Databases**: S3
+
+### Cloud & Databases
+- **Cloud Platforms**: AWS, GCP
+- **Databases**: Databricks, PostgreSQL, MySQL, DynamoDB, MongoDB, DuckDB, Redshift, NoSQL
+
+### Visualization
+- **Tools**: Dash (Plotly), Power BI, Tableau, Excel, Matplotlib, Seaborn
+
+### Certifications
+- Microsoft Azure AI Fundamentals
+- Databricks: Generative AI Fundamentals
+```
