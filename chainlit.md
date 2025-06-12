@@ -7,7 +7,7 @@
 
 ---
 
-## 📖 Overview
+## Overview
 
 **Ronald AI** is my intelligent and friendly personal assistant, designed to answer my questions based on a specific set of documents. Built with Python using the powerful `Chainlit` framework for the user interface and `LlamaIndex` for efficient data indexing and retrieval, this application provides me with a seamless conversational experience.
 
