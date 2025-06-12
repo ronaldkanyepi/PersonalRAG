@@ -113,18 +113,14 @@ async def main(message: cl.Message):
         if query_engine is None:
             raise ValueError("Query engine not found in session.")
 
-        msg = cl.Message(content="", author="Assistant")
         logger.info(f"Received message: {message.content}")
-
         res = await cl.make_async(query_engine.query)(message.content)
         logger.info("LLM response received.")
-        full_response = ""
 
-        for token in res.response_gen:
-            await msg.stream_token(token)
-            full_response += token
+        # Use full response (no streaming)
+        full_response = getattr(res, "response", str(res))
+        await cl.Message(content=full_response, author="Assistant").send()
 
-        await msg.send()
         logger.info("Message sent back to client.")
         logger.info(f"Full response: {full_response}")
 
@@ -132,3 +128,4 @@ async def main(message: cl.Message):
         error_msg = f"An error occurred: {str(e)}"
         await cl.Message(content=error_msg, author="Assistant").send()
         logger.error(error_msg)
+
