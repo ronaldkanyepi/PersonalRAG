@@ -1,0 +1,13 @@
+2025-06-12 12:30:47.741 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 12:30:49.701 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 12:30:52.185 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 12:30:52.214 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 12:30:53.003 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 12:30:53.062 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 12:30:53.842 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 12:31:00.857 | INFO     | app.py:main:117 - Received message: List Ronald’s most impactful projects in bullet points. For each, include the project name, tools used, the problem it addressed, and the outcome. Use clear paragraphs or bullet points for readability.
+2025-06-12 12:31:01.419 | INFO     | app.py:main:120 - LLM response received.
+2025-06-12 12:31:03.741 | INFO     | app.py:main:126 - Message sent back to client.
+2025-06-12 12:31:36.349 | INFO     | app.py:main:117 - Received message: provide more
+2025-06-12 12:31:36.424 | INFO     | app.py:main:120 - LLM response received.
+2025-06-12 12:31:40.804 | INFO     | app.py:main:126 - Message sent back to client.

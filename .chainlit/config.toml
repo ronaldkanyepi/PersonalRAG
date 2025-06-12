@@ -67,7 +67,7 @@ edit_message = true
 # Name of the assistant.
 name = "Ronald AI"
 
-logo = "/public/logo_1.png"
+logo = "/public/logo_dark.png"
 
 default_theme = "dark"
 

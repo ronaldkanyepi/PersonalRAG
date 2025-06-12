@@ -3,7 +3,10 @@ from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, StorageCon
 from llama_index.embeddings.huggingface import HuggingFaceEmbedding
 from llama_index.llms.openrouter import OpenRouter
 import os
+from loguru import logger
 
+logger.add("logs/ronald_ai.log", rotation="1 MB", retention="7 days", level="INFO")
+logger.info("Starting Ronald AI App")
 
 @cl.set_starters
 async def set_starters():
@@ -16,7 +19,7 @@ async def set_starters():
 
         cl.Starter(
             label="Project highlights",
-            message="List Ronald’s most impactful projects in bullet points. For each, include the project name, tools used, the problem it addressed, and the outcome. Format the response in markdown.",
+            message="List Ronald’s most impactful projects in bullet points. For each, include the project name, tools used, the problem it addressed, and the outcome. Use clear paragraphs or bullet points for readability.",
             icon="https://cdn-icons-png.flaticon.com/512/979/979585.png",
         ),
 
@@ -49,6 +52,11 @@ async def set_starters():
 
 @cl.on_chat_start
 async def start():
+    api_key = os.getenv("API_KEY")
+    if not api_key:
+        logger.warning("API_KEY not found in environment variables.")
+    else:
+        logger.info("API_KEY loaded.")
     cl.user_session.set("llm", OpenRouter(
         model="opengvlab/internvl3-14b:free",
         temperature=0.1,
@@ -60,6 +68,7 @@ async def start():
         model_name="BAAI/bge-small-en-v1.5"
     )
     Settings.context_window = 4096
+    logger.info("LLM and embedding models initialized.")
 
     try:
         storage_context = StorageContext.from_defaults(persist_dir="storage")
@@ -99,12 +108,24 @@ async def start():
 
 @cl.on_message
 async def main(message: cl.Message):
-    query_engine = cl.user_session.get("query_engine")
+    try:
+        query_engine = cl.user_session.get("query_engine")
+        if query_engine is None:
+            raise ValueError("Query engine not found in session.")
 
-    msg = cl.Message(content="", author="Assistant")
-    res = await cl.make_async(query_engine.query)(message.content)
+        msg = cl.Message(content="", author="Assistant")
+        logger.info(f"Received message: {message.content}")
 
-    for token in res.response_gen:
-        await msg.stream_token(token)
+        res = await cl.make_async(query_engine.query)(message.content)
+        logger.info("LLM response received.")
 
-    await msg.send()
+        for token in res.response_gen:
+            await msg.stream_token(token)
+
+        await msg.send()
+        logger.info("Message sent back to client.")
+
+    except Exception as e:
+        error_msg = f"An error occurred: {str(e)}"
+        await cl.Message(content=error_msg, author="Assistant").send()
+        logger.error(error_msg)
