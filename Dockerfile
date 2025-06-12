@@ -1,22 +1,23 @@
 FROM python:3.10-slim
 
+# Create a non-root user for security
 RUN useradd -m -u 1000 user
 
 USER user
-ENV HOME=/home/user \
-PATH=/home/user/.local/bin:$PATH
 
-WORKDIR $HOME/app
+# Ensure pip-installed binaries in ~/.local/bin are accessible
+ENV PATH="/home/user/.local/bin:$PATH"
 
-COPY --chown=user ./ $HOME/app
+# Set working directory
+WORKDIR /app
 
+# Copy requirements and install
+COPY --chown=user ./requirements.txt requirements.txt
 
-COPY requirements.txt .
+RUN pip install --no-cache-dir --upgrade -r requirements.txt
 
-RUN pip install --no-cache-dir -r requirements.txt
+COPY --chown=user . /app
 
+EXPOSE 7860
 
-COPY . .
-
-
-CMD ["chainlit", "run", "main.py","--port", "7860"]
+CMD ["chainlit", "run", "app.py", "--host", "0.0.0.0", "--port", "7860"]
