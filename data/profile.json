@@ -25,6 +25,13 @@
         "notes": "Graduated with a First Class Honors Degree and was awarded the UZ Book Price (Prize given to the top student)."
       }
     ],
+    "certifications": [
+      "Microsoft Azure AI Fundamentals",
+      "Databricks: Generative AI Fundamentals",
+      "Oracle SE 11 Java Developer",
+      "Akka Reactive Architecture: Domain Driven Design - Level 2",
+      "Akka Reactive Architecture: Introduction to Reactive Systems - Level 2"
+    ],
     "professional_experience": [
       {
         "role": "DATA SCIENTIST",
@@ -65,14 +72,7 @@
       "Data Engineering & MLOps": ["Apache Spark", "Kafka", "Apache Airflow", "Docker", "Kubernetes", "dbt (data build tool)", "Great Expectations", "AWS S3", "Glue", "EMR", "GCP Cloud Functions", "REST APIs", "Feature Stores", "CI/CD with GitHub Actions", "Model Deployment via Chainlit, MLflow, FastAPI"],
       "Visualization & Analytics": ["Dash (Plotly)", "Streamlit", "Tableau", "Power BI", "Excel", "Matplotlib", "Seaborn", "Time Series Forecasting (Multivariate, Hierarchical)", "A/B Testing", "Uplift Modeling", "Segmentation", "Deep Exploratory Data Analysis (EDA)"],
       "Cloud, Databases & Storage": ["AWS (S3, SageMaker, Redshift)", "GCP (BigQuery, Vertex AI)", "Databricks", "PostgreSQL","MS SQL Server","MySQL", "DynamoDB", "MongoDB", "DuckDB", "Vector Stores (FAISS, Chroma)", "NoSQL", "ElasticSearch", "Parquet", "ORC", "JSON", "Avro"]
-    },
-    "certifications": [
-      "Microsoft Azure AI Fundamentals",
-      "Databricks: Generative AI Fundamentals",
-      "Oracle SE 11 Java Developer",
-      "Akka Reactive Architecture: Domain Driven Design - Level 2",
-      "Akka Reactive Architecture: Introduction to Reactive Systems - Level 2"
-    ]
+    }
   },
   {
     "type": "Project",

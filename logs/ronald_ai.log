@@ -178,3 +178,122 @@ These projects and experiences highlight Ronald's proficiency in creating effici
                 
 2025-06-12 14:23:53.504 | INFO     | app.py:main:138 - LLM response received.
 2025-06-12 14:23:57.428 | ERROR    | app.py:main:151 - An error occurred: Error code: 401 - {'error': {'message': 'No auth credentials found', 'code': 401}}
+2025-06-12 15:43:21.516 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 15:43:26.511 | INFO     | app.py:start:87 - LLM and embedding models initialized.
+2025-06-12 15:43:27.668 | INFO     | app.py:start:87 - LLM and embedding models initialized.
+2025-06-12 15:44:07.154 | INFO     | app.py:start:87 - LLM and embedding models initialized.
+2025-06-12 15:46:09.860 | INFO     | app.py:start:87 - LLM and embedding models initialized.
+2025-06-12 15:52:36.002 | INFO     | app.py:start:87 - LLM and embedding models initialized.
+2025-06-12 15:55:23.243 | INFO     | app.py:start:87 - LLM and embedding models initialized.
+2025-06-12 15:55:49.023 | INFO     | app.py:main:133 - Received message: List Ronald’s academic background and professional certifications. Use the following format:
+                        Education
+                            - [Degree]
+                              [Institution] — [Location]
+                              Graduated [Year]
+                              • [Honors or Awards]
+                        Certifications
+                            - [Certification Name]
+                            - [Certification Name]
+                        
+2025-06-12 15:55:49.511 | INFO     | app.py:main:136 - LLM response received.
+2025-06-12 15:56:03.068 | INFO     | app.py:main:144 - Message sent back to client.
+2025-06-12 16:03:12.522 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:03:17.713 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:03:18.595 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:03:19.308 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:03:58.127 | INFO     | app.py:main:139 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                        
+                        ### Academic Background
+                        
+                        **[Degree Name]**
+                        * **Institution:** [Name of Institution]
+                        * **Location:** [City, State/Country]
+                        * **Graduation Year:** [Year]
+                        * **Notes:** [Include any honors, relevant coursework, or thesis titles here]
+                        
+                        ### Professional Certifications
+                        
+                        * [Name of Certification]
+                      
+                        
+2025-06-12 16:03:58.617 | INFO     | app.py:main:142 - LLM response received.
+2025-06-12 16:04:00.940 | INFO     | app.py:main:150 - Message sent back to client.
+2025-06-12 16:08:30.587 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:08:34.363 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:08:36.676 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:08:37.868 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:08:38.860 | INFO     | app.py:start:93 - LLM and embedding models initialized.
+2025-06-12 16:09:12.464 | INFO     | app.py:main:139 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                        
+                        ### Academic Background
+                        
+                        **[Degree Name]**
+                        * **Institution:** [Name of Institution]
+                        * **Location:** [City, State/Country]
+                        * **Graduation Year:** [Year]
+                        * **Notes:** [Include any honors, relevant coursework, or thesis titles here]
+                        
+                        ### Professional Certifications
+                        
+                        * [Name of Certification]
+                      
+                        
+2025-06-12 16:09:12.807 | INFO     | app.py:main:142 - LLM response received.
+2025-06-12 16:09:14.964 | INFO     | app.py:main:150 - Message sent back to client.
+2025-06-12 16:11:43.061 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:11:47.134 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:11:48.634 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:11:49.322 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:11:50.007 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:11:50.934 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:12:05.810 | INFO     | app.py:main:138 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                        ```markdown
+                        ### Academic Background
+                        
+                        **[Degree Name]**
+                        * **Institution:** [Name of Institution]
+                        * **Location:** [City, State/Country]
+                        * **Graduation Year:** [Year]
+                        * **Notes:** [Include any honors, relevant coursework, or thesis titles here]
+                        
+                        ### Certifications
+                        * [Name of Certification]
+                        ```
+                        
+2025-06-12 16:12:06.149 | INFO     | app.py:main:141 - LLM response received.
+2025-06-12 16:12:08.923 | INFO     | app.py:main:149 - Message sent back to client.
+2025-06-12 16:17:25.124 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:17:29.946 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:17:31.271 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:19:13.512 | INFO     | app.py:main:138 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                      
+                        ### Academic Background
+                        
+                        **[Degree Name]**
+                        * **Institution:** [Name of Institution]
+                        * **Location:** [City, State/Country]
+                        * **Graduation Year:** [Year]
+                        * **Notes:** [Include any honors or awards here]
+                        
+                        ### Certifications
+                        * [Name of Certification]
+                        
+                        
+2025-06-12 16:19:13.998 | INFO     | app.py:main:141 - LLM response received.
+2025-06-12 16:19:16.088 | INFO     | app.py:main:149 - Message sent back to client.
+2025-06-12 16:20:00.173 | INFO     | app.py:start:92 - LLM and embedding models initialized.
+2025-06-12 16:20:01.837 | INFO     | app.py:main:138 - Received message: 
+                List Ronald's top 3 most impactful projects. For each project, use the following format:
+                Project Name: [Name of the project]
+                -Objective: [What was the goal?]
+                -My Role & Achievements: [What did Ronald do and what was the result?]
+                -Technologies Used: [List of tools and technologies]
+                -Source URL: [Source URL]
+                -Demo URL: [Demo URL if its available if not skip]
+                
+2025-06-12 16:20:02.216 | INFO     | app.py:main:141 - LLM response received.
+2025-06-12 16:20:06.441 | INFO     | app.py:main:149 - Message sent back to client.

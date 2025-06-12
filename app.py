@@ -21,12 +21,13 @@ async def set_starters():
             label="Summarize Key Projects",
             message=f"""
                 List Ronald's top 3 most impactful projects. For each project, use the following format:
-                Project Name: [Name of the project]
-                -Objective: [What was the goal?]
-                -My Role & Achievements: [What did Ronald do and what was the result?]
-                -Technologies Used: [List of tools and technologies]
-                -Source URL: [Source URL]
-                -Demo URL: [Demo URL if its available if not skip]
+                ### Project Name: [Name of the project]
+                
+                - **Objective:** [What was the goal?]
+                - **My Role & Achievements:** [What did Ronald do and what was the result?]
+                - **Technologies Used:** [List of tools and technologies]
+                - **Source URL:** [Source URL]
+                - **Demo URL:** [Demo URL if available; if not, skip]
                 """,
             icon="https://cdn-icons-png.flaticon.com/512/979/979585.png",
         ),
@@ -45,25 +46,31 @@ async def set_starters():
 
         cl.Starter(
             label="Explain a specific project",
-            message=f"""Describe one of the best projects Ronald has worked on. Cover the following points in your answer:
-            - Objective: What was the main goal of the project?
-            - Architecture: How was the system designed? (e.g., Kafka, Spark, DynamoDB)
-            - My Achievements: What specific parts did Ronald build or accomplish?
-            - Outcome: What was the final result or impact?""",
+            message=f"""Describe one of the best projects Ronald has worked on. Cover the following points in your answer:    
+            
+                        - **Objective:** What was the main goal of the project?
+                        - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
+                        - **My Achievements:** What specific parts did Ronald build or accomplish?
+                        - **Outcome:** What was the final result or impact?""",
             icon="https://cdn-icons-png.flaticon.com/512/3756/3756550.png",
         ),
 
         cl.Starter(
             label="Certifications and education",
-            message=f"""List Ronald’s academic background and professional certifications. Use the following format:
-                        Education
-                            - [Degree]
-                              [Institution] — [Location]
-                              Graduated [Year]
-                              • [Honors or Awards]
-                        Certifications
-                            - [Certification Name]
-                            - [Certification Name]
+            message=f"""Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                      
+                        ### Academic Background
+                        
+                        **[Degree Name]**
+                        * **Institution:** [Name of Institution]
+                        * **Location:** [City, State/Country]
+                        * **Graduation Year:** [Year]
+                        * **Notes:** [Include any honors or awards here]
+                        
+                        ### Certifications
+                        * [Name of Certification]
+                        
                         """,
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )
