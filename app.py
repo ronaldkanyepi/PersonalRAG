@@ -20,7 +20,7 @@ async def set_starters():
         cl.Starter(
             label="Summarize Key Projects",
             message=f"""
-                List Ronald's top 3 most impactful projects. For each project, use the following format:
+                List Ronald's top 5 most impactful projects starting with the most impactful. For each project, use the following format:
                 ### Project Name: [Name of the project]
                 - **Objective:** [What was the goal?]
                 - **My Role & Achievements:** [What did Ronald do and what was the result?]
@@ -62,16 +62,15 @@ async def set_starters():
 
         cl.Starter(
             label="Certifications and education",
-            message=f"""Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
-                        Present the information using this specific format:
+            message=f"""Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi.Present the information using the format below:
                         ### Academic Background
-                        **[Degree Name]**
+                        - **[Degree Name]**
                             - **Institution:** [Name of Institution]
                             - **Location:** [City, State/Country]
-                            - **Graduation Year:** [Year]
+                            - **Graduation Year:** [Month] [Year]
                             - **Notes:** [Include any honors or awards here]
                         ### Certifications
-                            - [Name of Certification]
+                            [Name of Certification]
                         """,
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )

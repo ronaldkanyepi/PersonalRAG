@@ -360,3 +360,169 @@ These projects and experiences highlight Ronald's proficiency in creating effici
                         
 2025-06-12 16:33:52.113 | INFO     | app.py:main:144 - LLM response received.
 2025-06-12 16:33:54.433 | INFO     | app.py:main:152 - Message sent back to client.
+2025-06-12 16:36:41.228 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:36:46.404 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:36:47.099 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:37:04.673 | INFO     | app.py:main:141 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                        ### Academic Background
+                        **[Degree Name]**
+                            - **Institution:** [Name of Institution]
+                            - **Location:** [City, State/Country]
+                            - **Graduation Year:** [Year]
+                            - **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            - [Name of Certification]
+                        
+2025-06-12 16:37:05.163 | INFO     | app.py:main:144 - LLM response received.
+2025-06-12 16:37:09.956 | INFO     | app.py:main:152 - Message sent back to client.
+2025-06-12 16:37:37.334 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:37:38.657 | INFO     | app.py:main:141 - Received message: Describe one of the best projects Ronald has worked on. Cover the following points in your answer:    
+                        - **Title:** What was the project's title? 
+                        - **Objective:** What was the main goal of the project?
+                        - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
+                        - **Achievements:** What specific parts did Ronald build or accomplish?
+                        - **Outcome:** What was the final result or impact?
+2025-06-12 16:37:38.958 | INFO     | app.py:main:144 - LLM response received.
+2025-06-12 16:37:55.635 | ERROR    | app.py:main:157 - An error occurred: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1749772800000'}, 'provider_name': None}}, 'user_id': 'user_2xcuBxLNi4ivsi8ukqm0kNAvqvX'}
+2025-06-12 16:41:47.514 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:41:53.148 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:41:54.175 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:41:54.235 | INFO     | app.py:main:141 - Received message: Describe one of the best projects Ronald has worked on. Cover the following points in your answer:    
+                        - **Title:** What was the project's title? 
+                        - **Objective:** What was the main goal of the project?
+                        - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
+                        - **Achievements:** What specific parts did Ronald build or accomplish?
+                        - **Outcome:** What was the final result or impact?
+2025-06-12 16:41:54.689 | INFO     | app.py:main:144 - LLM response received.
+2025-06-12 16:41:57.663 | INFO     | app.py:main:152 - Message sent back to client.
+2025-06-12 16:42:05.045 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:42:05.113 | INFO     | app.py:main:141 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                        ### Academic Background
+                        **[Degree Name]**
+                            - **Institution:** [Name of Institution]
+                            - **Location:** [City, State/Country]
+                            - **Graduation Year:** [Year]
+                            - **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            - [Name of Certification]
+                        
+2025-06-12 16:42:05.435 | INFO     | app.py:main:144 - LLM response received.
+2025-06-12 16:42:10.825 | INFO     | app.py:main:152 - Message sent back to client.
+2025-06-12 16:42:25.464 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:42:26.268 | INFO     | app.py:main:141 - Received message: 
+                List Ronald's top 3 most impactful projects. For each project, use the following format:
+                ### Project Name: [Name of the project]
+                - **Objective:** [What was the goal?]
+                - **My Role & Achievements:** [What did Ronald do and what was the result?]
+                - **Technologies Used:** [List of tools and technologies]
+                - **Source URL:** [Source URL]
+                - **Demo URL:** [Demo URL if available; if not, skip]
+                
+2025-06-12 16:42:26.552 | INFO     | app.py:main:144 - LLM response received.
+2025-06-12 16:42:30.595 | INFO     | app.py:main:152 - Message sent back to client.
+2025-06-12 16:44:58.398 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:45:03.301 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:45:04.394 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:45:05.635 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:45:33.030 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:45:34.150 | INFO     | app.py:main:140 - Received message: Describe one of the best projects Ronald has worked on. Cover the following points in your answer:    
+                        - **Title:** What was the project's title? 
+                        - **Objective:** What was the main goal of the project?
+                        - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
+                        - **Achievements:** What specific parts did Ronald build or accomplish?
+                        - **Outcome:** What was the final result or impact?
+2025-06-12 16:45:34.638 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:45:36.656 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:45:42.545 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:45:43.217 | INFO     | app.py:main:140 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi.Present the information using the format below:
+                        ### Academic Background
+                        **[Degree Name]**
+                            - **Institution:** [Name of Institution]
+                            - **Location:** [City, State/Country]
+                            - **Graduation Year:** [Year]
+                            - **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            [Name of Certification]
+                        
+2025-06-12 16:45:43.516 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:45:45.673 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:46:38.724 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:46:42.532 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:46:43.285 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:46:43.921 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:46:44.966 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:47:11.872 | INFO     | app.py:main:140 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi.Present the information using the format below:
+                        ### Academic Background
+                        **[Degree Name]**
+                            **Institution:** [Name of Institution]
+                            **Location:** [City, State/Country]
+                            **Graduation Year:** [Year]
+                            **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            [Name of Certification]
+                        
+2025-06-12 16:47:12.360 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:47:15.050 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:48:35.751 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:48:39.501 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:48:40.311 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:48:40.993 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:48:41.723 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:48:42.479 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:48:47.403 | INFO     | app.py:main:140 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi.Present the information using the format below:
+                        ### Academic Background
+                        **[Degree Name]**
+                            **Institution:** [Name of Institution]
+                            **Location:** [City, State/Country]
+                            **Graduation Year:** [Month] [Year]
+                            **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            [Name of Certification]
+                        
+2025-06-12 16:48:47.883 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:48:50.198 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:52:10.444 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:52:15.360 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:52:15.433 | INFO     | app.py:main:140 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi.Present the information using the format below:
+                        ### Academic Background
+                        - **Degree: [Degree Name]**
+                            - **Institution:** [Name of Institution]
+                            - **Location:** [City, State/Country]
+                            - **Graduation Year:** [Month] [Year]
+                            - **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            [Name of Certification]
+                        
+2025-06-12 16:52:16.399 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:52:16.420 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:52:18.785 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:53:17.793 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:53:21.652 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:53:22.328 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:53:23.041 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:53:26.522 | INFO     | app.py:main:140 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi.Present the information using the format below:
+                        ### Academic Background
+                        - **[Degree Name]**
+                            - **Institution:** [Name of Institution]
+                            - **Location:** [City, State/Country]
+                            - **Graduation Year:** [Month] [Year]
+                            - **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                            [Name of Certification]
+                        
+2025-06-12 16:53:26.968 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:53:29.399 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:53:40.518 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:53:41.655 | INFO     | app.py:main:140 - Received message: 
+                List Ronald's top 6 most impactful projects starting with the most impactful. For each project, use the following format:
+                ### Project Name: [Name of the project]
+                - **Objective:** [What was the goal?]
+                - **My Role & Achievements:** [What did Ronald do and what was the result?]
+                - **Technologies Used:** [List of tools and technologies]
+                - **Source URL:** [Source URL]
+                - **Demo URL:** [Demo URL if available; if not, skip]
+                
+2025-06-12 16:53:41.941 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:53:48.128 | INFO     | app.py:main:151 - Message sent back to client.
