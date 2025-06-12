@@ -3,3 +3,4 @@ llama-index-core~=0.12.41
 llama-index-embeddings-huggingface~=0.5.4
 llama-index-llms-openrouter~=0.3.2
 loguru
+websockets

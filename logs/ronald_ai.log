@@ -85,3 +85,70 @@
 - **Sports Ticket Sales Forecasting (Feb 2025):** Built ETL pipelines integrating attendance, promotions, and weather data to enhance forecasting precision using XGBoost and LSTM models.
 
 These projects and experiences highlight Ronald's proficiency in creating efficient, scalable, and data-driven solutions using a diverse set of data engineering tools and platforms.
+2025-06-12 13:31:19.522 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 13:31:22.228 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:31:24.742 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:31:24.784 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:31:25.608 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:31:25.660 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:31:26.315 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:31:26.350 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:31:26.979 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:31:33.573 | INFO     | app.py:main:116 - Received message: Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.
+2025-06-12 13:31:34.088 | INFO     | app.py:main:118 - LLM response received.
+2025-06-12 13:31:35.998 | INFO     | app.py:main:124 - Message sent back to client.
+2025-06-12 13:31:35.999 | INFO     | app.py:main:125 - Full response: ```markdown
+## Technical Skills Summary
+
+### Programming & Machine Learning
+- **Languages**: Python, R
+- **Frameworks & Libraries**: TensorFlow, PyTorch, scikit-learn, Darts, ARIMA, LLMs, RAG, LlamaIndex
+
+### Data Engineering
+- **Tools**: Apache Spark, Kafka, Apache Airflow, Docker, Kubernetes, dbt
+- **Databases**: S3
+
+### Cloud & Databases
+- **Cloud Platforms**: AWS, GCP
+- **Databases**: Databricks, PostgreSQL, MySQL, DynamoDB, MongoDB, DuckDB, Redshift, NoSQL
+
+### Visualization
+- **Tools**: Dash (Plotly), Power BI, Tableau, Excel, Matplotlib, Seaborn
+
+### Certifications
+- Microsoft Azure AI Fundamentals
+- Databricks: Generative AI Fundamentals
+```
+2025-06-12 13:38:12.713 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 13:38:14.284 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:38:16.576 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:38:16.909 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:38:17.597 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:38:17.658 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:38:18.278 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:38:18.311 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:38:19.022 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:38:21.297 | INFO     | app.py:main:116 - Received message: List Ronald’s most impactful projects in bullet points. For each, include the project name, tools used, the problem it addressed, and the outcome. Use clear paragraphs or bullet points for readability.
+2025-06-12 13:38:21.791 | INFO     | app.py:main:118 - LLM response received.
+2025-06-12 13:38:24.376 | INFO     | app.py:main:124 - Message sent back to client.
+2025-06-12 13:38:24.376 | INFO     | app.py:main:125 - Full response: - **Log-Realtime-Analysis Project (Dec 2024)**
+  - **Tools Used:** Kafka, Spark, DynamoDB, Python Dash
+  - **Problem Addressed:** Real-time log processing and visualization for handling high-volume log events.
+  - **Outcome:** Designed a scalable architecture capable of processing 60,000 log events per second, utilizing a Kafka-Spark ETL pipeline for data extraction, transformation, and loading, and DynamoDB for real-time metric storage. Python Dash was employed to create interactive dashboards for visualization.
+
+- **Sports Ticket Sales Forecasting (Feb 2025)**
+  - **Tools Used:** XGBoost, LSTM, Python
+  - **Problem Addressed:** Accurate forecasting of ticket sales for the Atlanta Braves.
+  - **Outcome:** Achieved a 3.3% forecast error, the best in the competition, by developing XGBoost and LSTM models. The models integrated attendance, promotions, and weather data to enhance forecasting precision.
+2025-06-12 13:40:20.244 | INFO     | app.py:start:59 - API_KEY loaded.
+2025-06-12 13:40:21.151 | INFO     | app.py:start:71 - LLM and embedding models initialized.
+2025-06-12 13:40:22.766 | INFO     | app.py:main:116 - Received message: List Ronald’s academic background and certifications. For education, include the degree, institution, and year. For certifications, include the name, issuing organization, and year. Format the answer using bullet points or markdown.
+2025-06-12 13:40:23.118 | INFO     | app.py:main:118 - LLM response received.
+2025-06-12 13:40:24.453 | INFO     | app.py:main:124 - Message sent back to client.
+2025-06-12 13:40:24.454 | INFO     | app.py:main:125 - Full response: - **Education:**
+  - Master of Science in Business Analytics, Emory University, Atlanta, GA, May 2025
+  - Bachelor of Business Studies and Computing Science, University of Zimbabwe, Harare, Zimbabwe, Dec 2021
+
+- **Certifications:**
+  - Microsoft Azure AI Fundamentals
+  - Databricks: Generative AI Fundamentals
