@@ -22,7 +22,6 @@ async def set_starters():
             message=f"""
                 List Ronald's top 3 most impactful projects. For each project, use the following format:
                 ### Project Name: [Name of the project]
-                
                 - **Objective:** [What was the goal?]
                 - **My Role & Achievements:** [What did Ronald do and what was the result?]
                 - **Technologies Used:** [List of tools and technologies]
@@ -56,7 +55,7 @@ async def set_starters():
                         - **Title:** What was the project's title? 
                         - **Objective:** What was the main goal of the project?
                         - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
-                        - **My Achievements:** What specific parts did Ronald build or accomplish?
+                        - **Achievements:** What specific parts did Ronald build or accomplish?
                         - **Outcome:** What was the final result or impact?""",
             icon="https://cdn-icons-png.flaticon.com/512/3756/3756550.png",
         ),
@@ -65,18 +64,14 @@ async def set_starters():
             label="Certifications and education",
             message=f"""Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
                         Present the information using this specific format:
-                      
                         ### Academic Background
-                        
                         **[Degree Name]**
-                        * **Institution:** [Name of Institution]
-                        * **Location:** [City, State/Country]
-                        * **Graduation Year:** [Year]
-                        * **Notes:** [Include any honors or awards here]
-                        
+                            * **Institution:** [Name of Institution]
+                            * **Location:** [City, State/Country]
+                            * **Graduation Year:** [Year]
+                            * **Notes:** [Include any honors or awards here]
                         ### Certifications
-                        * [Name of Certification]
-                        
+                             * [Name of Certification]
                         """,
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )
