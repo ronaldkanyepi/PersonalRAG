@@ -1,3 +1,13 @@
+---
+title: Personal RAG
+emoji: ⚡
+colorFrom: purple
+colorTo: blue
+sdk: docker
+pinned: false
+license: mit
+---
+
 # Ronald AI: A Personal RAG Chatbot 
 
 [![Chainlit](https://img.shields.io/badge/Made%20with-Chainlit-blue.svg)](https://chainlit.io)
