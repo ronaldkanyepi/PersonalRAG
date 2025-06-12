@@ -33,12 +33,22 @@ async def set_starters():
 
         cl.Starter(
             label="Technical skills summary",
-            message=f"""Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.
-                        - **Programming:** List programming languages Ronald is proficient in.
-                        - **Data Engineering:** List data engineering tools and technologies.
-                        - **Cloud:** List cloud platforms and services Ronald has experience with.
-                        - **Machine Learning:** List machine learning frameworks and libraries.
-                        - **Tools:** List other relevant tools and software Ronald uses.
+            message=f"""Generate a formatted summary of Ronald’s technical capabilities grouped into the following categories:
+                        - **Programming & Machine Learning:** List programming languages, ML libraries, and modeling tools.
+                        - **Data Engineering & MLOps:** List technologies related to data pipelines, orchestration, deployment, and MLOps.
+                        - **Visualization & Analytics:** List tools and methods for dashboards, EDA, forecasting, and experimental analysis.
+                        - **Cloud, Databases & Storage:** List cloud platforms, databases, and data storage technologies.
+                    
+                        Format the response like this:
+                        ### Technical Capabilities
+                        **Programming & Machine Learning:**  
+                        [List as a comma-separated line]
+                        **Data Engineering & MLOps:**  
+                        [List as a comma-separated line]
+                        **Visualization & Analytics:**  
+                        [List as a comma-separated line]
+                        **Cloud, Databases & Storage:**  
+                        [List as a comma-separated line]
                     """,
             icon="https://cdn-icons-png.flaticon.com/512/1055/1055644.png",
         ),
