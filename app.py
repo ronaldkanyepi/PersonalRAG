@@ -10,34 +10,40 @@ async def set_starters():
     return [
         cl.Starter(
             label="Who is Ronald?",
-            message="Can you tell me a brief summary of Ronald's professional background?",
+            message="Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.",
             icon="https://cdn-icons-png.flaticon.com/512/3135/3135715.png",
         ),
+
         cl.Starter(
             label="Project highlights",
-            message="What are some standout projects Ronald has worked on?",
+            message="List Ronald’s most impactful projects in bullet points. For each, include the project name, tools used, the problem it addressed, and the outcome. Format the response in markdown.",
             icon="https://cdn-icons-png.flaticon.com/512/979/979585.png",
         ),
+
         cl.Starter(
             label="Technical skills summary",
-            message="Give me a breakdown of Ronald's technical skillset group into respective categories as a markdown",
+            message="Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.",
             icon="https://cdn-icons-png.flaticon.com/512/1055/1055644.png",
         ),
+
         cl.Starter(
             label="Experience with data engineering",
-            message="What experience does Ronald have with data engineering tools and projects?",
+            message="Describe Ronald’s experience with data engineering. Include tools and platforms used, types of pipelines or systems built, and example projects. Use clear paragraphs or bullet points for readability.",
             icon="https://cdn-icons-png.flaticon.com/512/2674/2674696.png",
         ),
+
         cl.Starter(
             label="Explain a specific project",
-            message="Tell me more about Ronald's project involving OCR to JSON using opengvlab/internvl3-14b:free",
+            message="Describe one of the best projects Ronald has worked on. Include the objective, approach, tools used, and the results. Format the answer in readable paragraphs or bullet points.",
             icon="https://cdn-icons-png.flaticon.com/512/3756/3756550.png",
         ),
+
         cl.Starter(
             label="Certifications and education",
-            message="What certifications and academic background does Ronald have?",
+            message="List Ronald’s academic background and certifications. For education, include the degree, institution, and year. For certifications, include the name, issuing organization, and year. Format the answer using bullet points or markdown.",
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )
+
     ]
 
 
