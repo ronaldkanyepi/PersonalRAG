@@ -297,3 +297,10 @@ These projects and experiences highlight Ronald's proficiency in creating effici
                 
 2025-06-12 16:20:02.216 | INFO     | app.py:main:141 - LLM response received.
 2025-06-12 16:20:06.441 | INFO     | app.py:main:149 - Message sent back to client.
+2025-06-12 16:22:53.077 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:22:57.178 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:22:57.858 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:22:58.902 | INFO     | app.py:start:94 - LLM and embedding models initialized.
+2025-06-12 16:23:58.727 | INFO     | app.py:main:140 - Received message: Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.
+2025-06-12 16:23:59.189 | INFO     | app.py:main:143 - LLM response received.
+2025-06-12 16:24:02.062 | INFO     | app.py:main:151 - Message sent back to client.

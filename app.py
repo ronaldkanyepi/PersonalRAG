@@ -34,7 +34,13 @@ async def set_starters():
 
         cl.Starter(
             label="Technical skills summary",
-            message="Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.",
+            message=f"""Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.
+                        - **Programming:** List programming languages Ronald is proficient in.
+                        - **Data Engineering:** List data engineering tools and technologies.
+                        - **Cloud:** List cloud platforms and services Ronald has experience with.
+                        - **Machine Learning:** List machine learning frameworks and libraries.
+                        - **Tools:** List other relevant tools and software Ronald uses.
+            """,
             icon="https://cdn-icons-png.flaticon.com/512/1055/1055644.png",
         ),
 
