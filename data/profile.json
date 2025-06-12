@@ -1,0 +1,156 @@
+[
+  {
+    "type": "Personal Profile",
+    "name": "RONALD NYASHA KANYEPI",
+    "summary": "Data Scientist with over 3 years of experience transforming complex financial services and real estate data into actionable business insights. Proven ability to build robust machine learning models and real-time ETL pipelines using Python, SQL, and Spark. Experienced in deploying scalable ML solutions on AWS and GCP using MLflow, Docker, Kubernetes, and FastAPI.",
+    "contact": {
+      "email": "kanyepironald@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/ronald-nyasha-kanyepi/",
+      "portfolio": "https://ronaldkanyepi.github.io/portfolio-website/",
+      "github": "https://github.com/ronaldkanyepi"
+    },
+    "education": [
+      {
+        "institution": "EMORY UNIVERSITY",
+        "location": "Atlanta, GA",
+        "degree": "Master of Science in Business Analytics",
+        "graduation_year": 2025
+      },
+      {
+        "institution": "UNIVERSITY OF ZIMBABWE",
+        "location": "Harare, Zimbabwe",
+        "degree": "Bachelor of Business Studies and Computing Science",
+        "graduation_year": 2021,
+        "notes": "Graduated with a First Class Honors Degree and was awarded the UZ Book Price (Prize given to the top student)."
+      }
+    ],
+    "professional_experience": [
+      {
+        "role": "DATA SCIENTIST",
+        "company": "Pennybacker Capital - Austin, Texas",
+        "dates": "Dec 2024 - May 2025",
+        "achievements": [
+          "Designed and deployed machine learning models to forecast quarterly Gross Asset Value (GAV) for a $4B+ real estate portfolio achieving 1% forecasting error (MAPE) and helping prevent an estimated $2M in annual losses.",
+          "Engineered an integrated data pipeline, consolidating over 50 internal and external data sources on Databricks to create a comprehensive datasets for predictive modeling and analysis.",
+          "Initiated and analyzed Google Reviews data to create a sentiment-driven early warning system, identifying operational risks and opportunities for improvement across 11 underperforming multifamily properties.",
+          "Translated complex model predictions into actionable business strategy by using SHAP and LIME to interpret feature importance and predictive insights enhancing stakeholder trust and data-driven decision-making."
+        ]
+      },
+      {
+        "role": "SENIOR DATA SPECIALIST",
+        "company": "AFC Commercial Bank - Harare, Zimbabwe",
+        "dates": "Mar 2024 – Jun 2024",
+        "achievements": [
+        "Led the partnership between OK-Supermarket and AFC Bank for the OK Grand Challenge promotion, driving data-driven marketing strategies; effort generated a 200% increase in POS transactions across 70+ outlets.",
+        "Developed a data visualization dashboard using Python, Apache Spark and Dash Plotly to analyze 20000+ ATM and POS terminal activity, providing critical insights and facilitating in-depth analysis and swift resolution of operational issues.",
+        "Implemented an XGBoost model to predict point-of-sale client churn, enhancing targeted retention campaign effectiveness by 25% and reducing churn rates by 15% within two months.",
+        "Led customer and loan data migration from T24 to IDC Core Banking System, achieving 99.4% accuracy by automating workflows with Python and Apache Spark for faster data cleaning and validation while minimizing downtime."
+        ]
+      },
+      {
+        "role": "DATA SPECIALIST",
+        "company": "AFC Commercial Bank - Harare, Zimbabwe",
+        "dates": "Jun 2022 – Feb 2024",
+        "achievements": [
+          "Developed a Python backend with FastAPI to integrate the Reserve Bank of Zimbabwe (RBZ) API for the Credit Reference Bureau (CRB), reducing data processing time by 40% while enhancing regulatory compliance.",
+          "Built ETL data pipelines using Apache Kafka and Python to integrate data from the core banking system, delivering accurate KPIs across 45 AFC Commercial Bank branches.",
+          "Redesigned and optimized merchant reporting services with Apache Airflow and DBT, automating manual processes and increasing efficiency by 80%, while delivering insights on transaction performance to key stakeholders.",
+          "Modernized a monolithic reconciliation app into scalable microservices using Docker, Python, FastAPI, Kubernetes and Angular, boosting efficiency by 150%."
+        ]
+      }
+    ],
+    "technical_capabilities": {
+      "Programming & Machine Learning": ["Python", "R", "SQL", "scikit-learn", "Darts", "Statsmodels", "ARIMA/SARIMA", "TensorFlow", "PyTorch", "LightGBM", "XGBoost", "CatBoost", "Large Language Models (LLMs)", "Retrieval-Augmented Generation (RAG)", "LangChain", "LlamaIndex", "OpenAI APIs", "HuggingFace Transformers", "SHAP", "Optuna (Hyperparameter Tuning)"],
+      "Data Engineering & MLOps": ["Apache Spark", "Kafka", "Apache Airflow", "Docker", "Kubernetes", "dbt (data build tool)", "Great Expectations", "AWS S3", "Glue", "EMR", "GCP Cloud Functions", "REST APIs", "Feature Stores", "CI/CD with GitHub Actions", "Model Deployment via Chainlit, MLflow, FastAPI"],
+      "Visualization & Analytics": ["Dash (Plotly)", "Streamlit", "Tableau", "Power BI", "Excel", "Matplotlib", "Seaborn", "Time Series Forecasting (Multivariate, Hierarchical)", "A/B Testing", "Uplift Modeling", "Segmentation", "Deep Exploratory Data Analysis (EDA)"],
+      "Cloud, Databases & Storage": ["AWS (S3, SageMaker, Redshift)", "GCP (BigQuery, Vertex AI)", "Databricks", "PostgreSQL","MS SQL Server","MySQL", "DynamoDB", "MongoDB", "DuckDB", "Vector Stores (FAISS, Chroma)", "NoSQL", "ElasticSearch", "Parquet", "ORC", "JSON", "Avro"]
+    },
+    "certifications": [
+      "Microsoft Azure AI Fundamentals",
+      "Databricks: Generative AI Fundamentals",
+      "Oracle SE 11 Java Developer",
+      "Akka Reactive Architecture: Domain Driven Design - Level 2",
+      "Akka Reactive Architecture: Introduction to Reactive Systems - Level 2"
+    ]
+  },
+  {
+    "type": "Project",
+    "project_name": "Customer Churn Analysis",
+    "summary": "This project focuses on analyzing customer data to predict churn in a telecommunications company. The primary objective is to identify key factors that contribute to customer churn and to build a predictive model that can accurately identify customers who are likely to leave.",
+    "my_role_and_achievements": [
+      "Handled missing values in 'TotalCharges' and converted data types for analysis.",
+      "Performed Exploratory Data Analysis (EDA), visualizing the churn distribution which was 26.6% Churn.",
+      "Trained multiple models including Logistic Regression,Gradient Boost, Random Forest, XGBoost, and a simple Neural Network.",
+      "Used SMOTE to handle class imbalance and Optuna for hyper-parameter tuning.",
+      "The Gradient Boosting model was selected as the final model based on AUC-ROC performance.",
+      "Used SHAP and LIME for feature importance analysis."
+    ],
+    "technologies": ["Python", "Pandas", "NumPy", "Matplotlib", "Seaborn", "Scikit-learn", "XGBoost", "LIME", "SHAP", "Optuna", "TensorFlow Keras"],
+    "source_url": "https://github.com/ronaldkanyepi/Customer-Churn-Analysis"
+  },
+  {
+    "type": "Project",
+    "project_name": "Health Trends in Southern Africa: A 2013-2020 Overview",
+    "summary": "This project visualizes key health indicators in Southern Africa between 2013 and 2020, leveraging data from the World Bank. The focus is on life expectancy, infant mortality rates, maternal mortality ratios, and HIV prevalence across Zimbabwe, Botswana, Mozambique, and South Africa.",
+    "my_role_and_achievements": [
+      "Utilized the World Bank API to source data.",
+      "Created multiple visualizations including a line chart for life expectancy, a bar chart for infant mortality, a box plot for HIV prevalence, and a heatmap for maternal mortality ratios.",
+      "Arranged multiple plots into a cohesive dashboard visualization."
+    ],
+    "technologies": ["R", "ggplot2", "tidyr", "dplyr", "gridExtra", "reshape2", "viridis", "patchwork", "ggtext"],
+    "source_url": "https://github.com/ronaldkanyepi/Southern-Africa-Health-Indicators-Analysis/tree/main"
+  },
+  {
+    "type": "Project",
+    "project_name": "Portfolio Optimization with Streamlit and Pyomo",
+    "summary": "This project optimizes stock portfolios by selecting up to 10 tickers and a custom date range. It uses Pyomo for optimization to minimize risk while targeting a desired return. The app displays allocations, returns, risk, and correlation heatmaps.",
+    "my_role_and_achievements": [
+      "Developed a Streamlit application for user interaction.",
+      "Used yfinance to fetch stock data for custom date ranges.",
+      "Implemented portfolio optimization logic using the Pyomo library.",
+      "Installed the IPOPT solver to handle the optimization calculations.",
+      "Visualized results, including a heatmap of stock correlations."
+    ],
+    "technologies": ["Python", "Streamlit", "Pyomo", "yfinance", "seaborn", "matplotlib", "numpy", "pandas"],
+    "source_url": "https://github.com/ronaldkanyepi/Portfolio-Optimization-Pyomo"
+  },
+  {
+    "type": "Project",
+    "project_name": "Zim-Places Python Package",
+    "summary": "A Python package that allows you to search for cities, provinces, and districts in Zimbabwe. Zimbabwe is split into eight provinces and two cities, with 59 districts and 1,200 wards.",
+    "my_role_and_achievements": [
+      "Developed and published the 'zim-places' package to PyPI.",
+      "Provided functions to get all wards, districts, cities, and provinces.",
+      "Showed examples of how to get data as JSON and convert it into customized lists of dictionaries."
+    ],
+    "technologies": ["Python", "PyPI", "JSON"],
+    "source_url": "https://pypi.org/project/zim-places"
+  },
+  {
+    "type": "Project",
+    "project_name": "Log Real-Time Analysis",
+    "summary": "A robust real-time log aggregation and visualization system designed to handle high-throughput logs (e.g., 60,000 events/sec) using a Kafka-Spark ETL pipeline. It integrates with DynamoDB for metrics storage and visualizes insights using a Dash Plotly dashboard.",
+    "my_role_and_achievements": [
+      "Designed a scalable architecture for real-time log processing and visualization.",
+      "Handled log ingestion with Kafka and real-time aggregation with Spark, which processed logs per minute.",
+      "Stored aggregated metrics in DynamoDB for fast querying and historical logs in HDFS as Parquet files.",
+      "Developed an interactive dashboard in Dash with real-time updates for SLA metrics, error rates, and response times.",
+      "Containerized the entire architecture using Docker-compose, including Zookeeper, Kafka, DynamoDB, and a Spark-Jupyter environment."
+    ],
+    "technologies": ["Python", "Apache Kafka", "Apache Spark", "DynamoDB", "HDFS", "Parquet", "Docker", "Dash", "Plotly"],
+    "source_url": "https://github.com/ronaldkanyepi/Log-Realtime-Analysis"
+  },
+  {
+    "type": "Project",
+    "project_name": "Zim Docs OCR-to-JSON Extractor",
+    "summary": "A web application built with Gradio that allows users to upload scanned documents (PDFs) or images. It uses a vision AI model to perform OCR and extract structured information into a JSON format for various document types like licenses, passports, and invoices.",
+    "my_role_and_achievements": [
+      "Built a user-friendly web application using Gradio.",
+      "Integrated a vision AI model to perform OCR and structured data extraction.",
+      "Handled both PDF and image file uploads using Gradio-PDF and PyMuPDF.",
+      "Managed API key integration via environment variables for use with services like OpenRouter.ai, making it compatible with Hugging Face Spaces secrets."
+    ],
+    "technologies": ["Python", "Gradio", "Gradio-PDF", "PyMuPDF (fitz)", "OpenAI-compatible APIs"],
+    "source_url": {"demo":"https://huggingface.co/spaces/NyashaK/DocOCR2JSON","github": "https://github.com/ronaldkanyepi/docs-ocr-2-json"}
+  }
+]

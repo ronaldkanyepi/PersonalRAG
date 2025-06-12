@@ -18,8 +18,17 @@ async def set_starters():
         ),
 
         cl.Starter(
-            label="Project highlights",
-            message="List Ronald’s most impactful projects in bullet points. For each, include the project name, tools used, the problem it addressed, and the outcome. Use clear paragraphs or bullet points for readability.",
+            label="Summarize Key Projects",
+            message=f"""
+                List Ronald's top 3 most impactful projects. For each project, use the following format:\n
+                **Project Name**: [Name of the project]\n
+                **Objective**: [What was the goal?]\n
+                **My Role & Achievements**: [What did Ronald do and what was the result?]\n
+                **Technologies Used**: [List of tools and technologies]\n
+                **Source URL**: [Source URL]\n
+                **Demo URL**: [Demo URL if its available if not skip]\n
+                
+                """,
             icon="https://cdn-icons-png.flaticon.com/512/979/979585.png",
         ),
 
@@ -30,20 +39,29 @@ async def set_starters():
         ),
 
         cl.Starter(
-            label="Experience with data engineering",
-            message="Describe Ronald’s experience with data engineering. Include tools and platforms used, types of pipelines or systems built, and example projects. Use clear paragraphs or bullet points for readability.",
+            label="Experience with AI and Data",
+            message="Describe Ronald’s experience with data and AI. Include tools and platforms used, types of pipelines or systems built, and example projects. Use clear paragraphs or bullet points for readability.",
             icon="https://cdn-icons-png.flaticon.com/512/2674/2674696.png",
         ),
 
         cl.Starter(
             label="Explain a specific project",
-            message="Describe one of the best projects Ronald has worked on. Include the objective, approach, tools used, and the results. Format the answer in readable paragraphs or bullet points.",
+            message=f"""Describe one of the best projects Ronald has worked on.Cover the following points in your answer:\n
+            - **Objective**: What was the main goal of the project?\n
+            - **Architecture**: How was the system designed? (e.g., Kafka, Spark, DynamoDB)\n
+            - **My Achievements**: What specific parts did Ronald build or accomplish?\n
+            - **Outcome**: What was the final result or impact?""",
             icon="https://cdn-icons-png.flaticon.com/512/3756/3756550.png",
         ),
 
         cl.Starter(
             label="Certifications and education",
-            message="List Ronald’s academic background and certifications. For education, include the degree, institution, and year. For certifications, include the name, issuing organization, and year. Format the answer using bullet points or markdown.",
+            message=f"""List Ronald’s academic background and professional certifications. Use the following format:\n\n
+            ### Education\n
+            - **[Degree]**, [Institution] - Graduated [Year]\n\n
+            ### Certifications\n
+            - [Certification Name]\n
+            - [Certification Name]""",
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )
 
