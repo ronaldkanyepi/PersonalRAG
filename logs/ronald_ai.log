@@ -152,3 +152,29 @@ These projects and experiences highlight Ronald's proficiency in creating effici
 - **Certifications:**
   - Microsoft Azure AI Fundamentals
   - Databricks: Generative AI Fundamentals
+2025-06-12 14:23:41.278 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 14:23:43.678 | INFO     | app.py:start:77 - API_KEY loaded.
+2025-06-12 14:23:46.931 | INFO     | app.py:start:89 - LLM and embedding models initialized.
+2025-06-12 14:23:46.972 | INFO     | app.py:start:77 - API_KEY loaded.
+2025-06-12 14:23:47.682 | INFO     | app.py:start:89 - LLM and embedding models initialized.
+2025-06-12 14:23:47.743 | INFO     | app.py:start:77 - API_KEY loaded.
+2025-06-12 14:23:48.382 | INFO     | app.py:start:89 - LLM and embedding models initialized.
+2025-06-12 14:23:52.688 | INFO     | app.py:main:135 - Received message: 
+                List Ronald's top 3 most impactful projects. For each project, use the following format:
+
+                **Project Name**: [Name of the project]
+
+                **Objective**: [What was the goal?]
+
+                **My Role & Achievements**: [What did Ronald do and what was the result?]
+
+                **Technologies Used**: [List of tools and technologies]
+
+                **Source URL**: [Source URL]
+
+                **Demo URL**: [Demo URL if its available if not skip]
+
+                
+                
+2025-06-12 14:23:53.504 | INFO     | app.py:main:138 - LLM response received.
+2025-06-12 14:23:57.428 | ERROR    | app.py:main:151 - An error occurred: Error code: 401 - {'error': {'message': 'No auth credentials found', 'code': 401}}

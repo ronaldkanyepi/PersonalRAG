@@ -20,14 +20,13 @@ async def set_starters():
         cl.Starter(
             label="Summarize Key Projects",
             message=f"""
-                List Ronald's top 3 most impactful projects. For each project, use the following format:\n
-                **Project Name**: [Name of the project]\n
-                **Objective**: [What was the goal?]\n
-                **My Role & Achievements**: [What did Ronald do and what was the result?]\n
-                **Technologies Used**: [List of tools and technologies]\n
-                **Source URL**: [Source URL]\n
-                **Demo URL**: [Demo URL if its available if not skip]\n
-                
+                List Ronald's top 3 most impactful projects. For each project, use the following format:
+                Project Name: [Name of the project]
+                -Objective: [What was the goal?]
+                -My Role & Achievements: [What did Ronald do and what was the result?]
+                -Technologies Used: [List of tools and technologies]
+                -Source URL: [Source URL]
+                -Demo URL: [Demo URL if its available if not skip]
                 """,
             icon="https://cdn-icons-png.flaticon.com/512/979/979585.png",
         ),
@@ -46,22 +45,26 @@ async def set_starters():
 
         cl.Starter(
             label="Explain a specific project",
-            message=f"""Describe one of the best projects Ronald has worked on.Cover the following points in your answer:\n
-            - **Objective**: What was the main goal of the project?\n
-            - **Architecture**: How was the system designed? (e.g., Kafka, Spark, DynamoDB)\n
-            - **My Achievements**: What specific parts did Ronald build or accomplish?\n
-            - **Outcome**: What was the final result or impact?""",
+            message=f"""Describe one of the best projects Ronald has worked on. Cover the following points in your answer:
+            - Objective: What was the main goal of the project?
+            - Architecture: How was the system designed? (e.g., Kafka, Spark, DynamoDB)
+            - My Achievements: What specific parts did Ronald build or accomplish?
+            - Outcome: What was the final result or impact?""",
             icon="https://cdn-icons-png.flaticon.com/512/3756/3756550.png",
         ),
 
         cl.Starter(
             label="Certifications and education",
-            message=f"""List Ronald’s academic background and professional certifications. Use the following format:\n\n
-            ### Education\n
-            - **[Degree]**, [Institution] - Graduated [Year]\n\n
-            ### Certifications\n
-            - [Certification Name]\n
-            - [Certification Name]""",
+            message=f"""List Ronald’s academic background and professional certifications. Use the following format:
+                        Education
+                            - [Degree]
+                              [Institution] — [Location]
+                              Graduated [Year]
+                              • [Honors or Awards]
+                        Certifications
+                            - [Certification Name]
+                            - [Certification Name]
+                        """,
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )
 
@@ -70,11 +73,6 @@ async def set_starters():
 
 @cl.on_chat_start
 async def start():
-    api_key = os.getenv("API_KEY")
-    if not api_key:
-        logger.warning("API_KEY not found in environment variables.")
-    else:
-        logger.info("API_KEY loaded.")
     cl.user_session.set("llm", OpenRouter(
         model="opengvlab/internvl3-14b:free",
         temperature=0.1,
