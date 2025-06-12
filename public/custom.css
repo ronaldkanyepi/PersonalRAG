@@ -1,0 +1,100 @@
+/* Modern styling for the chat interface */
+:root {
+    --primary-color: #4f46e5;
+    --secondary-color: #818cf8;
+    --background-color: #1f2937;
+    --text-color: #f3f4f6;
+    --border-radius: 12px;
+}
+
+header div.branding {
+    display: none !important;
+}
+
+/* Chat container styling */
+.cl-chat-container {
+    background-color: var(--background-color);
+    border-radius: var(--border-radius);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Message styling */
+.cl-message {
+    border-radius: var(--border-radius);
+    margin: 1rem 0;
+    padding: 1rem;
+    transition: all 0.3s ease;
+}
+
+.cl-message:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+/* User message styling */
+.cl-message-user {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+}
+
+/* Assistant message styling */
+.cl-message-assistant {
+    background-color: #374151;
+    color: var(--text-color);
+}
+
+/* Input area styling */
+.cl-input-container {
+    border-radius: var(--border-radius);
+    background-color: #374151;
+    border: 2px solid var(--primary-color);
+}
+
+.cl-input {
+    color: var(--text-color);
+    padding: 1rem;
+}
+
+/* Button styling */
+.cl-button {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    border-radius: var(--border-radius);
+    padding: 0.5rem 1rem;
+    transition: all 0.3s ease;
+}
+
+.cl-button:hover {
+    background-color: var(--secondary-color);
+    transform: translateY(-1px);
+}
+
+/* Sidebar styling */
+.cl-sidebar {
+    background-color: var(--background-color);
+    border-right: 1px solid #374151;
+}
+
+/* Header styling */
+.cl-header {
+    background-color: var(--background-color);
+    border-bottom: 1px solid #374151;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--background-color);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--primary-color);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary-color);
+} 

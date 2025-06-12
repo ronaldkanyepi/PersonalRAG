@@ -1,0 +1,69 @@
+Name : RONALD NYASHA KANYEPI
+Mobile : (678) 939–0239
+Email : kanyepironald@gmail.com
+Linked In : https://www.linkedin.com/in/ronald-nyasha-kanyepi/
+Portfolio : https://ronaldkanyepi.github.io/portfolio-website/
+Github : https://github.com/ronaldkanyepi
+
+
+PROFESSIONAL SUMMARY
+Data Scientist with 3+ years of experience transforming complex financial services and real estate data into actionable business insights. Proven ability to build robust machine learning models and real-time ETL pipelines using Python, SQL, and Spark. Experienced in deploying scalable ML solutions on AWS and GCP using MLflow, Docker, Kubernetes, and FastAPI.
+
+
+EDUCATION
+EMORY UNIVERSITY Atlanta, GA
+Master of Science in Business Analytics graduated in May 2025
+
+
+UNIVERSITY OF ZIMBABWE Harare, Zimbabwe
+Bachelor of Business Studies and Computing Science graduated in Dec 2021
+I was the top student in the class graduated with a First Class Honors Degree and I was awarded the UZ Book Price (Prize given to the top  student)
+
+
+PROFESSIONAL EXPERIENCE
+DATA SCIENTIST | Pennybacker Capital - Austin, Texas Dec 2024 -May 2025
+Designed and deployed machine learning models to forecast quarterly Gross Asset Value (GAV) for a $4B+ real estate portfolio achieving 1% forecasting error (MAPE) and helping prevent an estimated $2M in annual losses.
+Engineered an integrated data pipeline, consolidating over 50 internal and external data sources on Databricks to create a comprehensive datasets for predictive modeling and analysis.
+Initiated and analyzed Google Reviews data to create a sentiment-driven early warning system, identifying operational risks and opportunities for improvement across 11 underperforming multifamily properties.
+Translated complex model predictions into actionable business strategy by using SHAP and LIME to interpret feature importance and predictive insights enhancing stakeholder trust and data-driven decision-making.
+
+
+SENIOR DATA SPECIALIST | AFC Commercial Bank - Harare, Zimbabwe Mar 2024 – Jun 2024
+Led the partnership between OK-Supermarket and AFC Bank for the OK Grand Challenge promotion, driving data-driven marketing strategies; effort generated a 200% increase in POS transactions across 70+ outlets.
+Developed a data visualization dashboard using Python, Apache Spark and Dash Plotly to analyze 20000+ ATM and POS terminal activity, providing critical insights and facilitating in-depth analysis and swift resolution of operational issues.
+Implemented an XGBoost model to predict point-of-sale client churn, enhancing targeted retention campaign effectiveness by 25% and reducing churn rates by 15% within two months.
+Led customer and loan data migration from T24 to IDC Core Banking System, achieving 99.4% accuracy by automating workflows with Python and Apache Spark for faster data cleaning and validation while minimizing downtime.
+
+
+DATA SPECIALIST | AFC Commercial Bank - Harare, Zimbabwe Jun 2022 – Feb 2024
+Developed a Python backend with FastAPI to integrate the Reserve Bank of Zimbabwe (RBZ) web service for the Credit Reference Bureau (CRB), reducing data processing time by 40% while enhancing regulatory compliance.
+Built ETL data pipelines using Apache Kafka and Python to integrate data from the core banking system, delivering accurate account data metrics across 45 AFC Commercial Bank branches.
+Redesigned and optimized merchant reporting services with Apache Airflow and DBT, automating manual processes and increasing efficiency by 80%, while delivering insights on transaction performance to key stakeholders.
+Modernized a monolithic reconciliation app into scalable microservices using Docker, Python, FastAPI, Kubernetes and Angular, boosting efficiency by 150%.
+
+SELECTED PROJECTS
+Log-Realtime-Analysis Project Dec 2024
+Designed a scalable architecture for real-time log processing and visualization, handling 60,000 log events per second using a Kafka-Spark ETL pipeline, DynamoDB for real-time metric storage, and Python Dash for interactive dashboards.
+Sports Ticket Sales Forecasting Feb 2025
+Achieved 3.3% forecast error in predicting Atlanta Braves ticket sales, the best in the competition. Developed XGBoost and LSTM models, integrating attendance, promotions and weather data to enhance forecasting precision.
+At AFC Bank I created a FlexiXpress remittance application. I was also part of the team that created the backend for USSD and mobile banking application.
+
+TECHNICAL CAPABILITIES
+Programming & Machine Learning
+Python, R, SQL • scikit-learn, Darts, Statsmodels, ARIMA/SARIMA • TensorFlow, PyTorch • LightGBM, XGBoost, CatBoost • Large Language Models (LLMs) • Retrieval-Augmented Generation (RAG) • LangChain, LlamaIndex, OpenAI APIs • HuggingFace Transformers • SHAP, Optuna (Hyperparameter Tuning)
+
+Data Engineering & MLOps
+Apache Spark, Kafka, Apache Airflow, Docker, Kubernetes • dbt (data build tool), Great Expectations • AWS S3, Glue, EMR • GCP Cloud Functions • REST APIs • Feature Stores • CI/CD with GitHub Actions • Model Deployment via Chainlit, MLflow, FastAPI
+
+Visualization & Analytics
+Dash (Plotly), Streamlit, Tableau, Power BI, Excel • Matplotlib, Seaborn • Time Series Forecasting (Multivariate, Hierarchical) • A/B Testing, Uplift Modeling, Segmentation • Deep Exploratory Data Analysis (EDA)
+
+Cloud, Databases & Storage
+AWS (S3, SageMaker, Redshift), GCP (BigQuery, Vertex AI), Databricks • PostgreSQL, MySQL, DynamoDB, MongoDB, DuckDB • Vector Stores (FAISS, Chroma) • NoSQL, ElasticSearch • Parquet, ORC, JSON, Avro
+
+Certifications
+Microsoft Azure AI Fundamentals
+Databricks: Generative AI Fundamentals
+Oracle SE 11 Java Developer
+Akka Reactive Architecture: Domain Driven Design - Level 2
+Akka Reactive Architecture: Introduction to Reactive Systems - Level 2

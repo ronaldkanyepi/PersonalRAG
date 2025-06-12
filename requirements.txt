@@ -1,0 +1,2 @@
+chainlit>=0.7.700
+llama-index-core~=0.12.41
