@@ -39,7 +39,7 @@ async def set_starters():
                         - **Cloud:** List cloud platforms and services Ronald has experience with.
                         - **Machine Learning:** List machine learning frameworks and libraries.
                         - **Tools:** List other relevant tools and software Ronald uses.
-            """,
+                    """,
             icon="https://cdn-icons-png.flaticon.com/512/1055/1055644.png",
         ),
 
@@ -66,12 +66,12 @@ async def set_starters():
                         Present the information using this specific format:
                         ### Academic Background
                         **[Degree Name]**
-                            * **Institution:** [Name of Institution]
-                            * **Location:** [City, State/Country]
-                            * **Graduation Year:** [Year]
-                            * **Notes:** [Include any honors or awards here]
+                            - **Institution:** [Name of Institution]
+                            - **Location:** [City, State/Country]
+                            - **Graduation Year:** [Year]
+                            - **Notes:** [Include any honors or awards here]
                         ### Certifications
-                             * [Name of Certification]
+                            - [Name of Certification]
                         """,
             icon="https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
         )

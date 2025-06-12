@@ -344,3 +344,19 @@ These projects and experiences highlight Ronald's proficiency in creating effici
                         - **Outcome:** What was the final result or impact?
 2025-06-12 16:29:56.588 | INFO     | app.py:main:149 - LLM response received.
 2025-06-12 16:29:59.345 | INFO     | app.py:main:157 - Message sent back to client.
+2025-06-12 16:33:43.419 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:33:48.395 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:33:49.117 | INFO     | app.py:start:95 - LLM and embedding models initialized.
+2025-06-12 16:33:51.613 | INFO     | app.py:main:141 - Received message: Please generate a list of the academic degrees and professional certifications for Ronald Nyasha Kanyepi: .
+                        Present the information using this specific format:
+                        ### Academic Background
+                        **[Degree Name]**
+                            * **Institution:** [Name of Institution]
+                            * **Location:** [City, State/Country]
+                            * **Graduation Year:** [Year]
+                            * **Notes:** [Include any honors or awards here]
+                        ### Certifications
+                             * [Name of Certification]
+                        
+2025-06-12 16:33:52.113 | INFO     | app.py:main:144 - LLM response received.
+2025-06-12 16:33:54.433 | INFO     | app.py:main:152 - Message sent back to client.
