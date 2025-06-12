@@ -53,7 +53,7 @@ async def set_starters():
         cl.Starter(
             label="Explain a specific project",
             message=f"""Describe one of the best projects Ronald has worked on. Cover the following points in your answer:    
-            
+                        - **Title:** What was the project's title? 
                         - **Objective:** What was the main goal of the project?
                         - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
                         - **My Achievements:** What specific parts did Ronald build or accomplish?

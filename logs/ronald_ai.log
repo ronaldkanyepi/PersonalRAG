@@ -304,3 +304,32 @@ These projects and experiences highlight Ronald's proficiency in creating effici
 2025-06-12 16:23:58.727 | INFO     | app.py:main:140 - Received message: Provide a markdown-formatted summary of Ronald’s technical skills grouped into categories such as Programming, Data Engineering, Cloud, Machine Learning, and Tools.
 2025-06-12 16:23:59.189 | INFO     | app.py:main:143 - LLM response received.
 2025-06-12 16:24:02.062 | INFO     | app.py:main:151 - Message sent back to client.
+2025-06-12 16:26:39.751 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-06-12 16:26:45.142 | INFO     | app.py:start:100 - LLM and embedding models initialized.
+2025-06-12 16:26:45.919 | INFO     | app.py:start:100 - LLM and embedding models initialized.
+2025-06-12 16:27:17.425 | INFO     | app.py:start:100 - LLM and embedding models initialized.
+2025-06-12 16:27:17.493 | INFO     | app.py:main:146 - Received message: 
+                List Ronald's top 3 most impactful projects. For each project, use the following format:
+                ### Project Name: [Name of the project]
+                
+                - **Objective:** [What was the goal?]
+                - **My Role & Achievements:** [What did Ronald do and what was the result?]
+                - **Technologies Used:** [List of tools and technologies]
+                - **Source URL:** [Source URL]
+                - **Demo URL:** [Demo URL if available; if not, skip]
+                
+2025-06-12 16:27:17.969 | INFO     | app.py:main:149 - LLM response received.
+2025-06-12 16:27:22.102 | INFO     | app.py:main:157 - Message sent back to client.
+2025-06-12 16:27:47.493 | INFO     | app.py:start:100 - LLM and embedding models initialized.
+2025-06-12 16:27:47.965 | INFO     | app.py:main:146 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-06-12 16:27:48.242 | INFO     | app.py:main:149 - LLM response received.
+2025-06-12 16:27:50.388 | INFO     | app.py:main:157 - Message sent back to client.
+2025-06-12 16:27:53.314 | INFO     | app.py:start:100 - LLM and embedding models initialized.
+2025-06-12 16:27:54.224 | INFO     | app.py:main:146 - Received message: Describe one of the best projects Ronald has worked on. Cover the following points in your answer:    
+            
+                        - **Objective:** What was the main goal of the project?
+                        - **Architecture:** How was the system designed? (e.g., Kafka, Spark, DynamoDB)
+                        - **My Achievements:** What specific parts did Ronald build or accomplish?
+                        - **Outcome:** What was the final result or impact?
+2025-06-12 16:27:54.512 | INFO     | app.py:main:149 - LLM response received.
+2025-06-12 16:27:57.318 | INFO     | app.py:main:157 - Message sent back to client.
