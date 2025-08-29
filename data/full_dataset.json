@@ -1,0 +1,102 @@
+[
+  {
+    "input": "Who is Ronald?",
+    "expected_output": "Ronald Nyasha Kanyepi is a Data Scientist & Applied AI Engineer with 3+ years of experience in machine learning, applied AI, and data-driven innovation. He focuses on building scalable systems, operational efficiency, and actionable insights. Ronald is skilled in designing and deploying end-to-end ML pipelines, agentic workflows, RAG-enabled systems, and real-time data solutions using Python, SQL, Spark, and AWS. He has experience leveraging LLMs, LangGraph, LangChain, and Generative AI to optimize business processes across financial services, real estate, and enterprise analytics.",
+    "context": ["Ronald Nyasha Kanyepi is a Data Scientist & Applied AI Engineer with 3+ years of experience"]
+  },
+  {
+    "input": "What is Ronald's educational background?",
+    "expected_output": "Ronald has two degrees: a Master of Science in Business Analytics from Emory University in Atlanta, GA (graduated 2025) where he received the MSBA Rigor Award for proficiency in advanced analytics, statistical modeling, ML deployment, and data engineering. He also has a Bachelor of Business Studies and Computing Science from University of Zimbabwe in Harare (graduated 2021) with First Class Honors and the UZ Book Prize for top academic performance.",
+    "context": ["Master of Science in Business Analytics - Emory University", "Bachelor of Business Studies and Computing Science - University of Zimbabwe"]
+  },
+  {
+    "input": "Where does Ronald currently work?",
+    "expected_output": "Ronald currently works as a Data Scientist at Pennybacker Capital in Austin, Texas, from December 2024 to May 2025.",
+    "context": ["Data Scientist at Pennybacker Capital - Austin, Texas - Dec 2024 - May 2025"]
+  },
+  {
+    "input": "What are Ronald's programming languages and ML skills?",
+    "expected_output": "Ronald is proficient in Python, R, TypeScript, and SQL. For machine learning, he uses scikit-learn, Darts, Statsmodels, ARIMA/SARIMA, TensorFlow, PyTorch, LightGBM, XGBoost, CatBoost. He also works with Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), LangGraph, LangChain, LlamaIndex, OpenAI APIs, HuggingFace Transformers, SHAP, Optuna, MCP, and Chainlit.",
+    "context": ["Python, R, TypeScript, SQL", "scikit-learn, TensorFlow, PyTorch, LightGBM, XGBoost", "LLMs, RAG, LangGraph, LangChain"]
+  },
+  {
+    "input": "What data engineering and MLOps tools does Ronald use?",
+    "expected_output": "Ronald works with Apache Spark, Kafka, Airflow, Docker, Kubernetes, dbt, Great Expectations for data engineering. For MLOps, he uses AWS S3, Glue, EMR, REST APIs, Feature Stores, CI/CD with GitHub Actions, and Model Deployment with FastAPI, MLflow, and Chainlit.",
+    "context": ["Apache Spark, Kafka, Airflow, Docker, Kubernetes", "AWS S3, Glue, EMR", "FastAPI, MLflow, Chainlit"]
+  },
+  {
+    "input": "What cloud and database technologies does Ronald work with?",
+    "expected_output": "Ronald works with AWS (S3, SageMaker, Redshift), Databricks, PostgreSQL, SQL Server, MySQL, DynamoDB, MongoDB, DuckDB, Vector Stores (FAISS, Chroma), NoSQL, ElasticSearch, and various data formats like Parquet, ORC, JSON, and Avro.",
+    "context": ["AWS (S3, SageMaker, Redshift)", "PostgreSQL, SQL Server, MySQL, DynamoDB", "Vector Stores (FAISS, Chroma)"]
+  },
+  {
+    "input": "Tell me about QueryCraft AI project",
+    "expected_output": "QueryCraft AI is a conversational AI platform enabling natural language queries over complex databases, leveraging LangGraph, RAG, and multi-step LLM orchestration for automated SQL generation, validation, execution, and summarization. Ronald built a full-stack solution with Next.js frontend, FastAPI backend, Docker/Kubernetes deployment, LangFuse observability, MCP integration, and ZITADEL authentication. He implemented agentic workflows orchestrating LLM reasoning, schema-aware SQL generation, and automated validation pipelines. Source: https://github.com/ronaldkanyepi/PersonalRAG",
+    "context": ["QueryCraft AI - conversational AI platform", "Next.js, FastAPI, Docker, Kubernetes, LangGraph, RAG"]
+  },
+  {
+    "input": "What was Ronald's most significant achievement at Pennybacker Capital?",
+    "expected_output": "At Pennybacker Capital, Ronald designed and deployed ML models forecasting quarterly Gross Asset Value (GAV) for a $4B+ real estate portfolio with 1% error (MAPE), mitigating approximately $2M in potential losses. He also engineered end-to-end data pipelines integrating 50+ internal and external sources on Databricks for predictive modeling, automated reporting, and risk monitoring.",
+    "context": ["ML models forecasting GAV for $4B+ portfolio with 1% error", "mitigated $2M in potential losses"]
+  },
+  {
+    "input": "What did Ronald accomplish at AFC Commercial Bank?",
+    "expected_output": "At AFC Commercial Bank, Ronald achieved several key outcomes: As Senior Data Specialist, he led analytics for OK Grand Challenge promotion increasing POS transactions by 200% across 70+ outlets, developed real-time dashboards monitoring 20,000+ transactions, implemented XGBoost churn prediction models improving retention by 25%, and automated data migration with 99.4% accuracy. As Data Specialist, he built FastAPI backend reducing processing time by 40%, created Kafka-Python ETL pipelines, optimized reporting increasing efficiency by 80%, and modernized reconciliation systems boosting throughput by 150%.",
+    "context": ["200% increase in POS transactions", "25% retention improvement", "40% processing time reduction", "150% throughput boost"]
+  },
+  {
+    "input": "What certifications does Ronald have?",
+    "expected_output": "Ronald holds Microsoft Azure AI Fundamentals, Databricks: Generative AI Fundamentals, Oracle SE 11 Java Developer, Akka Reactive Architecture: Domain Driven Design - Level 2, and Akka Reactive Architecture: Introduction to Reactive Systems - Level 2.",
+    "context": ["Microsoft Azure AI Fundamentals", "Databricks: Generative AI Fundamentals", "Oracle SE 11 Java Developer"]
+  },
+  {
+    "input": "Tell me about the Zim Docs OCR project",
+    "expected_output": "Zim Docs OCR-to-JSON Extractor is a web app converting scanned documents into structured JSON format using vision AI for licenses, passports, and invoices. Ronald built a scalable OCR pipeline with Gradio, PyMuPDF, and OpenAI-compatible APIs, handling both PDFs and image inputs for structured, machine-readable outputs. Demo: https://huggingface.co/spaces/NyashaK/DocOCR2JSON, Source: https://github.com/ronaldkanyepi/docs-ocr-2-json",
+    "context": ["Zim Docs OCR-to-JSON Extractor", "Gradio, PyMuPDF, OpenAI APIs", "structured JSON format"]
+  },
+  {
+    "input": "How can I contact Ronald or view his work?",
+    "expected_output": "You can contact Ronald through email at kanyepironald@gmail.com, connect on LinkedIn at https://www.linkedin.com/in/ronald-nyasha-kanyepi/, view his portfolio at https://ronaldkanyepi.github.io/portfolio-website/, or check his GitHub at https://github.com/ronaldkanyepi",
+    "context": ["kanyepironald@gmail.com", "LinkedIn, portfolio website, GitHub"]
+  },
+  {
+    "input": "What visualization and analytics tools does Ronald use?",
+    "expected_output": "Ronald uses Dash (Plotly), Streamlit, Tableau, Power BI, Excel, Matplotlib, Seaborn for visualization. For analytics, he performs Time Series Forecasting, A/B Testing, Uplift Modeling, Segmentation, and Deep Exploratory Data Analysis (EDA).",
+    "context": ["Dash (Plotly), Streamlit, Tableau, Power BI", "Time Series Forecasting, A/B Testing"]
+  },
+  {
+    "input": "What is Ronald's experience with real-time systems?",
+    "expected_output": "Ronald has extensive experience with real-time data systems. He built a Log Real-Time Analysis system handling 60,000 events/sec using Kafka-Spark ETL pipelines with DynamoDB. At AFC Commercial Bank, he developed dashboards monitoring 20,000+ ATM and POS transactions in real-time using Python, Apache Spark, and Dash Plotly, enabling rapid operational interventions.",
+    "context": ["60,000 events/sec real-time system", "20,000+ real-time transaction monitoring", "Kafka-Spark ETL pipelines"]
+  },
+  {
+    "input": "Tell me about Ronald's sentiment analysis work",
+    "expected_output": "At Pennybacker Capital, Ronald developed a sentiment-driven early warning system using Google Reviews to detect operational risks and opportunities across 11 multifamily properties. This system helps identify potential issues and opportunities by analyzing customer sentiment from online reviews.",
+    "context": ["sentiment-driven early warning system", "Google Reviews analysis", "11 multifamily properties"]
+  },
+  {
+    "input": "What machine learning model interpretability tools does Ronald use?",
+    "expected_output": "Ronald uses SHAP and LIME for model interpretability. At Pennybacker Capital, he translated complex ML predictions into actionable business strategies using these tools, improving executive decision-making.",
+    "context": ["SHAP and LIME for model interpretability", "translated ML predictions into business strategies"]
+  },
+  {
+    "input": "What is Ronald's experience with microservices?",
+    "expected_output": "At AFC Commercial Bank, Ronald modernized a monolithic reconciliation application into microservices architecture using Docker, Kubernetes, FastAPI, and Angular, which boosted throughput by 150%. This demonstrates his experience in breaking down complex systems into scalable, maintainable microservices.",
+    "context": ["modernized monolithic application to microservices", "Docker, Kubernetes, FastAPI, Angular", "150% throughput boost"]
+  },
+  {
+    "input": "What's the weather like today?",
+    "expected_output": "I appreciate your question! However, I'm specifically designed to share information about Ronald's professional background and experience. I'd be happy to help you learn about his technical skills, projects, work experience, or educational background instead. What would you like to know about Ronald's professional journey?",
+    "context": []
+  },
+  {
+    "input": "Can you help me cook dinner?",
+    "expected_output": "I appreciate your question! However, I'm specifically designed to share information about Ronald's professional background and experience. I'd be happy to help you learn about his technical skills, projects, work experience, or educational background instead. What would you like to know about Ronald's professional journey?",
+    "context": []
+  },
+  {
+    "input": "What's Ronald's Social Security Number?",
+    "expected_output": "I cannot and will not provide private or sensitive information such as Social Security Numbers, personal addresses, or banking details. I'm here to share information about Ronald's professional background, technical skills, projects, and work experience. Is there something about his professional journey I can help you with instead?",
+    "context": []
+  }
+]

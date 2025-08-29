@@ -703,3 +703,113 @@ These projects and experiences highlight Ronald's proficiency in creating effici
 2025-06-12 17:20:20.758 | INFO     | app.py:main:150 - Received message: what are the AI tools does he know and relevant projects
 2025-06-12 17:20:20.803 | INFO     | app.py:main:153 - LLM response received.
 2025-06-12 17:20:23.063 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:20:57.602 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-08-29 13:21:16.281 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 13:21:42.649 | INFO     | app.py:main:150 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 13:21:43.549 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:21:50.812 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:22:56.889 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 13:22:59.119 | INFO     | app.py:main:150 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 13:22:59.368 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:23:06.365 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:26:09.420 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-08-29 13:26:16.774 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 13:26:18.399 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 13:26:21.824 | INFO     | app.py:main:150 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 13:26:22.149 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:26:37.814 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:27:49.193 | INFO     | app.py:main:150 - Received message: which schools did he attend
+2025-08-29 13:27:49.391 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:28:00.667 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:28:42.676 | INFO     | app.py:main:150 - Received message: what are his top projects
+2025-08-29 13:28:42.778 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:28:57.443 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:34:52.264 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-08-29 13:34:58.107 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 13:35:48.078 | INFO     | app.py:main:150 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 13:35:48.388 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:35:51.667 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:36:01.765 | INFO     | app.py:main:150 - Received message: what are his top projects
+2025-08-29 13:36:01.876 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:36:05.038 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:36:26.491 | INFO     | app.py:main:150 - Received message: what are his weakness
+2025-08-29 13:36:26.600 | INFO     | app.py:main:153 - LLM response received.
+2025-08-29 13:36:30.444 | INFO     | app.py:main:161 - Message sent back to client.
+2025-08-29 13:38:30.281 | INFO     | app.py:<module>:9 - Starting Ronald AI App
+2025-08-29 13:38:37.383 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 16:16:49.066 | INFO     | __main__:<module>:11 - Starting Ronald AI App
+2025-08-29 16:17:18.768 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 16:17:26.600 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 16:17:26.935 | INFO     | app.py:main:165 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 16:17:27.305 | INFO     | app.py:main:168 - LLM response received.
+2025-08-29 16:17:42.180 | INFO     | app.py:main:176 - Message sent back to client.
+2025-08-29 16:25:50.199 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 16:25:52.755 | INFO     | app.py:main:165 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 16:25:52.976 | INFO     | app.py:main:168 - LLM response received.
+2025-08-29 16:26:08.722 | ERROR    | app.py:main:181 - An error occurred: Error code: 429 - {'error': {'message': 'Rate limit exceeded: free-models-per-day. Add 10 credits to unlock 1000 free model requests per day', 'code': 429, 'metadata': {'headers': {'X-RateLimit-Limit': '50', 'X-RateLimit-Remaining': '0', 'X-RateLimit-Reset': '1756512000000'}, 'provider_name': None}}, 'user_id': 'user_2xcuBxLNi4ivsi8ukqm0kNAvqvX'}
+2025-08-29 17:29:04.545 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 17:29:10.185 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:29:10.570 | INFO     | app.py:main:165 - Received message: Provide a clear and professional summary of Ronald’s background, including his current focus, key strengths, and the industries he has worked in. Format the response as a well-structured paragraph.
+2025-08-29 17:29:11.764 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:29:11.790 | INFO     | app.py:main:168 - LLM response received.
+2025-08-29 17:29:15.451 | INFO     | app.py:main:176 - Message sent back to client.
+2025-08-29 17:30:24.119 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 17:30:28.396 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:30:30.604 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:30:48.614 | INFO     | app.py:main:177 - Received message: WHO IS RONALD'S GIRLFRIEND
+2025-08-29 17:30:48.836 | INFO     | app.py:main:180 - LLM response received.
+2025-08-29 17:30:50.627 | INFO     | app.py:main:188 - Message sent back to client.
+2025-08-29 17:31:09.471 | INFO     | app.py:main:177 - Received message: WHATS HIS SSN
+2025-08-29 17:31:09.550 | INFO     | app.py:main:180 - LLM response received.
+2025-08-29 17:31:11.538 | INFO     | app.py:main:188 - Message sent back to client.
+2025-08-29 17:33:05.544 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 17:33:10.009 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:33:16.083 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:33:17.057 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:33:20.801 | INFO     | app.py:main:179 - Received message: WHO IS RONALD'S GIRLFRIEND
+2025-08-29 17:33:20.971 | INFO     | app.py:main:182 - LLM response received.
+2025-08-29 17:33:23.780 | INFO     | app.py:main:190 - Message sent back to client.
+2025-08-29 17:36:31.114 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 17:36:35.965 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:36:37.027 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:36:47.701 | INFO     | app.py:main:179 - Received message: WHO IS RONALD'S GIRLFRINED
+2025-08-29 17:36:47.953 | INFO     | app.py:main:182 - LLM response received.
+2025-08-29 17:36:52.915 | INFO     | app.py:main:190 - Message sent back to client.
+2025-08-29 17:38:56.887 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 17:39:02.235 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:39:03.210 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:39:04.033 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:39:04.153 | INFO     | app.py:main:179 - Received message: Who is Ronald's girlfriend?
+2025-08-29 17:39:04.349 | INFO     | app.py:main:182 - LLM response received.
+2025-08-29 17:39:08.360 | INFO     | app.py:main:190 - Message sent back to client.
+2025-08-29 17:40:48.666 | INFO     | app.py:<module>:12 - Starting Ronald AI App
+2025-08-29 17:40:54.137 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:40:54.188 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:40:55.093 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:40:55.127 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:40:56.126 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:40:56.171 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:40:57.120 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:40:57.157 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:40:58.747 | ERROR    | app.py:main:169 - An error occurred: Chat engine not found in session.
+2025-08-29 17:45:05.384 | INFO     | app.py:<module>:12 - Starting Ronald AI App
+2025-08-29 17:45:09.457 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:45:09.505 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:45:10.676 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:45:10.713 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:45:12.110 | INFO     | app.py:start:109 - LLM and embedding models initialized.
+2025-08-29 17:45:12.140 | INFO     | app.py:start:114 - Loaded existing index from storage
+2025-08-29 17:49:56.006 | INFO     | app.py:<module>:11 - Starting Ronald AI App
+2025-08-29 17:50:04.253 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:50:05.315 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:50:06.236 | INFO     | app.py:start:106 - LLM and embedding models initialized.
+2025-08-29 17:50:07.853 | INFO     | app.py:main:181 - Received message: Who is Ronald's girlfriend?
+2025-08-29 17:50:08.579 | INFO     | app.py:main:184 - LLM response received.
+2025-08-29 17:50:13.738 | INFO     | app.py:main:192 - Message sent back to client.
+2025-08-29 18:00:59.837 | INFO     | app.py:<module>:12 - Starting Ronald AI App
+2025-08-29 18:01:07.508 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 18:01:08.662 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 18:01:08.755 | INFO     | app.py:main:173 - Received message: Who is Ronald's girlfriend?
+2025-08-29 18:01:09.734 | INFO     | app.py:start:104 - LLM and embedding models initialized.
+2025-08-29 18:01:09.787 | INFO     | app.py:main:176 - LLM response received.
+2025-08-29 18:01:12.998 | INFO     | app.py:main:184 - Message sent back to client.
